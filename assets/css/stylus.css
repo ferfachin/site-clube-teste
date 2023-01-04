@@ -5,6 +5,7 @@ body {
     margin: 0 auto;
 }
 
+/*Start Home Bar*/
 .home-bar {
     display: flex;
     justify-content: space-between;
@@ -29,12 +30,18 @@ body {
     cursor: pointer;
 }
 
+.home-button:hover {
+    background: #005FA3;
+    transform: 15s;
+}
+
 .home-link {
     margin: 0 0 0 305px;
 }
 
-.home-link:hover {
-    opacity: 0.8;
+.home-link a:hover {
+    color: #005FA3;
+    font-weight: bold;
 }
 
 .home-list {
@@ -44,3 +51,5 @@ body {
     font-weight: 500;
     font-size: 12px;
 }
+
+/*Finish Home Bar*/
