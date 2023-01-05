@@ -33,7 +33,7 @@ body {
     cursor: pointer;
 }
 
-.home-button:hover {
+button:hover {
     background: #005FA3;
     transform: 15s;
 }
@@ -73,10 +73,53 @@ body {
     font-weight: 400;
     line-height: 25px;
     position: absolute;
-    top: 160px;
+    top: 245px;
     left: 125px;
 }
 
 .text-bg1-bold {
     font-weight: bold;
+}
+
+.beneficios-bg1 {
+    display: flex;
+    position: absolute;
+    top: 446px;
+    margin: 0 0 0 85px;
+}
+
+.beneficios-bg1--text {
+    font-size: 18px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+}
+
+.beneficios-bg1--text img {
+    margin-right: 10px;
+}
+
+.bg1-show-more {
+    font-size: 27px;
+    font-weight: 700;
+    position: absolute;
+    top: 535px;
+    left: 125px;
+}
+
+.button-bg1 {
+    position: absolute;
+    top: 615px;
+}
+
+.bg1-button--cotacao {
+    background: #003153;
+    box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
+    border-radius: 20px;
+    margin-left: 110px;
+    width: 295px;
+    height: 85px;
+    font-size: 27px;
+    font-weight: 700;
 }
