@@ -57,10 +57,14 @@ button:hover {
 
 /*Finish Home Bar*/
 
-/* Start Homepage */
+/* Start bg1 */
 
 .bg1-img {
     position: relative;
+    color: #FFFFFF;
+}
+
+.bg1-img p {
     color: #FFFFFF;
 }
 
@@ -124,4 +128,44 @@ button:hover {
     font-size: 27px;
     font-weight: 700;
     cursor: pointer;
+}
+
+/*End Bg1*/
+
+/* Start Bg2*/
+
+.icons-bg2 {
+    margin: 234px auto;
+}
+
+.icons-bg2 ul {
+    display: flex;
+    justify-content: center;
+}
+
+.icons-bg2 ul h1 {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+
+}
+
+.icons-bg2 ul p {
+    margin-top: 30px;
+}
+
+.icons-bg2 ul h1,
+p {
+    margin: 8px;
+    color: #003153;
+    text-align: left;
+}
+
+
+.perfil2-bg2 {
+    margin-left: 101px;
+}
+
+.perfil3-bg2 {
+    margin: 0 101px 0;
 }
