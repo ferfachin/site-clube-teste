@@ -123,4 +123,5 @@ button:hover {
     height: 85px;
     font-size: 27px;
     font-weight: 700;
+    cursor: pointer;
 }
