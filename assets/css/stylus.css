@@ -169,3 +169,43 @@ p {
 .perfil3-bg2 {
     margin: 0 101px 0;
 }
+
+/*Start Bg3*/
+
+.bg3 {
+    display: flex;
+}
+
+.box-bg3 {
+    display: flex;
+}
+
+.bg3-titulo {
+    text-align: center;
+    color: #003153;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.box1-bg3 {
+    margin: 50px 0 0 24px;
+    font-weight: 400;
+    font-size: 18px;
+}
+
+.bg3-text--icon {
+    margin: 30px 0;
+}
+
+.bg3-text--icon img {
+    margin-left: 15px;
+}
+
+.box2-bg3 {
+    margin: 220px 0 0 30px;
+}
+
+.bg3-text--icon {
+    display: flex;
+}
