@@ -73,7 +73,7 @@ button:hover {
     font-weight: 400;
     line-height: 25px;
     position: absolute;
-    top: 245px;
+    top: 134.5px;
     left: 125px;
 }
 
@@ -84,8 +84,8 @@ button:hover {
 .beneficios-bg1 {
     display: flex;
     position: absolute;
-    top: 446px;
-    margin: 0 0 0 85px;
+    top: 333.5px;
+    left: 85px;
 }
 
 .beneficios-bg1--text {
@@ -104,20 +104,21 @@ button:hover {
     font-size: 27px;
     font-weight: 700;
     position: absolute;
-    top: 535px;
-    left: 125px;
+    top: 420.5px;
+    left: 135px;
 }
 
 .button-bg1 {
     position: absolute;
-    top: 615px;
+    top: 490px;
+    left: 120px;
+    margin: 490 0 0 121;
 }
 
 .bg1-button--cotacao {
     background: #003153;
     box-shadow: 5px 5px 4px rgba(0, 0, 0, 0.3);
     border-radius: 20px;
-    margin-left: 110px;
     width: 295px;
     height: 85px;
     font-size: 27px;
