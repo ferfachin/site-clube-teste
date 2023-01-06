@@ -245,7 +245,6 @@ p {
     line-height: 30px;
 }
 
-.bg4-p1 p {}
 
 .bg4-p2 {
     margin-top: 20px;
@@ -256,3 +255,91 @@ p {
 }
 
 /*Finish Bg4*/
+
+/*Start Bg5*/
+
+.bg5-assist {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    width: 75%;
+    border: 5px solid #003153;
+    border-radius: 10px;
+    align-items: center;
+    padding: 30px;
+
+}
+
+.bg5-assist--text h1 {
+    color: #003153;
+    font-weight: 700;
+    font-size: 60.75px;
+    line-height: 74px;
+}
+
+.bg5-assist--text h2 {
+    color: #003153;
+    font-weight: 700;
+    font-size: 40.5px;
+    line-height: 49px;
+    margin-top: 20px;
+}
+
+.bg5-button {
+    background: #003153;
+    width: 222px;
+    height: 72px;
+    border-radius: 20px;
+    margin-left: 105px;
+    font-size: 18px;
+    line-height: 22px;
+    font-weight: 700;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.bg5-job {
+    display: flex;
+    justify-content: center;
+    margin-top: 102px;
+}
+
+.bg5-job--text h1 {
+    color: #003153;
+    font-weight: 700;
+    font-size: 40.5px;
+    line-height: 49px;
+}
+
+.bg5-job--text h2 {
+    color: #003153;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 27px;
+    line-height: 33px;
+}
+
+.bg5-job--text p {
+    color: #003153;
+    margin-top: 15px;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+}
+
+.bg5-button--job {
+    background: #003153;
+    width: 157px;
+    height: 72px;
+    border-radius: 20px;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    cursor: pointer;
+    margin-top: 45px;
+}
+
+.bg5-person {
+    margin-left: 100px;
+}
