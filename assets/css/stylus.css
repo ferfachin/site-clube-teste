@@ -209,3 +209,45 @@ p {
 .bg3-text--icon {
     display: flex;
 }
+
+.bg4 {
+    display: flex;
+    justify-content: center;
+    color: #003153;
+
+}
+
+.bg4-text h1 {
+    font-weight: 700;
+    font-size: 40.5px;
+    line-height: 49px;
+    text-align: left;
+}
+
+.bg4-text h2 {
+    font-weight: 600;
+    font-size: 27px;
+    line-height: 33px;
+    text-align: left;
+}
+
+.bg4-p1 {
+    margin-top: 40px;
+
+}
+
+.bg4-text p {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 30px;
+}
+
+.bg4-p1 p {}
+
+.bg4-p2 {
+    margin-top: 20px;
+}
+
+.bg4-map {
+    margin-left: 100px;
+}
