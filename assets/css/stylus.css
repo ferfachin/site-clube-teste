@@ -210,7 +210,10 @@ p {
     display: flex;
 }
 
+/* Start Bg4 */
+
 .bg4 {
+    margin-top: 100px;
     display: flex;
     justify-content: center;
     color: #003153;
@@ -251,3 +254,5 @@ p {
 .bg4-map {
     margin-left: 100px;
 }
+
+/*Finish Bg4*/
