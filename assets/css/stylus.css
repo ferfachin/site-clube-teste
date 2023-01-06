@@ -344,3 +344,36 @@ p {
 .bg5-person {
     margin-left: 100px;
 }
+
+footer {
+    background: #003153;
+    margin-top: 100px;
+    width: 100%
+}
+
+.footer-info {
+    display: flex;
+    justify-content: center;
+}
+
+.footer-tags {
+    color: #ffffff;
+    display: flex;
+    justify-content: center;
+}
+
+.redes ul {
+    display: flex;
+    margin-left: 10px;
+    align-items: center;
+}
+
+.redes li {
+    color: #FFFFFF;
+    margin-left: 25px;
+}
+
+.footer-maps {
+    width: 338px;
+    height: 175px;
+}
