@@ -7,6 +7,7 @@ body {
     padding: 0;
     box-sizing: border-box;
     width: 100%;
+    height: 100vh;
 }
 
 /*Start Home Bar*/
@@ -345,15 +346,19 @@ p {
     margin-left: 100px;
 }
 
-footer {
-    background: #003153;
-    margin-top: 100px;
-    width: 100%
-}
 
 .footer-info {
+    background: #003153;
+    margin-top: 100px;
+    width: 100%;
+    height: 295px;
     display: flex;
     justify-content: center;
+    align-items: center;
+}
+
+.footer-logo {
+    margin-left: 70px;
 }
 
 .footer-tags {
@@ -362,11 +367,40 @@ footer {
     justify-content: center;
 }
 
+.footer-tags--list {
+    margin-left: 72px;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 40px;
+}
+
+.redes {
+    margin-left: 30px;
+}
+
 .redes ul {
     display: flex;
     margin-left: 10px;
     align-items: center;
+    line-height: 40px;
 }
+
+.redes-icon {
+    margin-bottom: 33px;
+
+}
+
+.redes-icon--0800 {
+    margin-bottom: 45px;
+    font-weight: 500;
+    font-size: 12px;
+}
+
+.endereco li {
+    line-height: 20px;
+}
+
+
 
 .redes li {
     color: #FFFFFF;
@@ -376,4 +410,33 @@ footer {
 .footer-maps {
     width: 338px;
     height: 175px;
+    margin-left: 95px;
+}
+
+.footer-copy {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+    background: #003153;
+}
+
+.copyright {
+    margin-left: 75px;
+    color: #ffffff;
+}
+
+.dev-rde {
+    color: #FFFFFF;
+}
+
+
+.footer-copy--bg p {
+    color: #003153;
+    position: absolute;
+    top: 3765px;
+    right: 60px;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
 }
