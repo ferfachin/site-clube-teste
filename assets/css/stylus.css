@@ -1,5 +1,10 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
 
+html,
+* {
+    margin: 0;
+    padding: 0;
+}
 
 body {
     font-family: 'Montserrat', sans-serif;
@@ -430,12 +435,15 @@ p {
     color: #FFFFFF;
 }
 
+.footer-copy--bg {
+    position: relative;
+}
 
 .footer-copy--bg p {
     color: #003153;
     position: absolute;
-    top: 3765px;
-    right: 60px;
+    bottom: 0;
+    right: 0;
     font-weight: 400;
     font-size: 12px;
     line-height: 15px;
