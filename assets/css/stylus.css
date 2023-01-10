@@ -22,7 +22,7 @@ body {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 .logo-home {
@@ -64,7 +64,7 @@ button:hover {
     font-size: 12px;
 }
 
-@media screen and (max-width:1024px) {
+@media screen and (max-width:760px) and (min-width:320px) {
     .home-link {
         display: none;
     }
@@ -93,6 +93,16 @@ button:hover {
 
 .bg1-img {
     width: 100%;
+}
+
+@media screen and (max-width:760px) and (min-width:320px){
+    .bg1-img{
+        display: none;
+    }
+    .bg1-mobile {
+        width: 100%;
+        display: relative;
+    }
 }
 
 .text-bg1 {
